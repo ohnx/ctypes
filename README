@@ -1,0 +1,28 @@
+                                 ctypes by ohnx
+
+about
+    ctypes is a collection of different simple types (ie, list, tree),
+    implemented in C by ohnx.
+
+download
+    find the latest stable release at https://github.com/ohnx/ctypes/releases
+    if you like to live life on the edge, you can also checkout/clone the
+    main branch of this repository. there is a 80% chance the code is stable,
+    but no guarantees.
+
+credits
+    portions of this code (namely the hashmap) are based on Pete Warden's
+    work which can be found at https://github.com/petewarden/c_hashmap
+
+license
+    This software is X11/MIT License licensed. For more information, check out
+    LICENSE in the root of this repository.
+
+types added
+    as of right now, ctypes has 2 types added, with more planned:
+      - List
+      - Hashmap
+    to use any of these types, just include the correspoding header files.
+
+    for sample usage of any of these types or other help, please visit
+    the directory /docs.
