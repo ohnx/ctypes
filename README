@@ -1,8 +1,18 @@
-                                 ctypes by ohnx
+                           _                            
+                          | |                           
+                      ___ | |_  _   _  _ __    ___  ___ 
+                     / __|| __|| | | || '_ \  / _ \/ __|
+                    | (__ | |_ | |_| || |_) ||  __/\__ \
+                     \___| \__| \__, || .__/  \___||___/
+                                 __/ || |               
+                                |___/ |_|        by ohnx et al. (nobody)
+
 
 about
     ctypes is a collection of different simple types (ie, list, tree),
-    implemented in C by ohnx.
+    functions that operate on these types, as well as some other miscellaneous
+    functions implemented in C. the operations on these types are mostly
+    inspired by higher-level languages such as Java.
 
 download
     find the latest stable release at https://github.com/ohnx/ctypes/releases
@@ -10,19 +20,28 @@ download
     main branch of this repository. there is a 80% chance the code is stable,
     but no guarantees.
 
-credits
-    portions of this code (namely the hashmap) are based on Pete Warden's
-    work which can be found at https://github.com/petewarden/c_hashmap
-
-license
-    This software is X11/MIT License licensed. For more information, check out
-    LICENSE in the root of this repository.
-
 types added
-    as of right now, ctypes has 2 types added, with more planned:
+    as of right now, ctypes has 2 types, with more planned.
+    they are as follows:
       - List
       - Hashmap
-    to use any of these types, just include the correspoding header files.
+    to use any of these types, just include the corresponding header files.
 
     for sample usage of any of these types or other help, please visit
     the directory /docs.
+
+credits
+    portions of this code (the hashmap) are based on Pete Warden's
+    code (which can be found at https://github.com/petewarden/c_hashmap) and
+    Zaks Wang's code (which can be found at
+    https://github.com/ultimate010/c_hashmap)
+
+contributing
+    please feel free to contribute problems you have with ctypes (in the
+    form of GitHib issues) or solutions for some problems you have had
+    (in the form of pull requests). other than that, optimization for
+    existing functions is also welcome.
+
+license
+    This software is X11/MIT License licensed. For more information, please
+    see the LICENSE file in the root of this repository.
